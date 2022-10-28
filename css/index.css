@@ -84,7 +84,7 @@ p, a {
     font-size: 3rem;
 }
 *{
-    color:white;
+    color: rgb(225, 239, 230);;
 }
 /* header section */
 header {
@@ -142,21 +142,22 @@ transform: scale(1.5);
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 .gallery h2{
-    color: whitesmoke;
+    text-align: center;
 }
-.gallery div{
+.row{
     display: flex;
-    /* flex-direction: row; */
-    justify-content: space-evenly;
-    /* align-content:space-around; */
-    flex-wrap: wrap;
-    /* width: 30%; */
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.row div{
+    width: 30%;
 	margin: 2% 0;
+}
+.food-pic{
+    text-align: center;
 }
 
 /* about us section */
@@ -248,16 +249,24 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
-    background-color: black;
+    background-color: rgb(0, 4, 17);
+    border-top: solid white 1px;
+}
+footer button{
+    color: black;
 }
 footer nav{
-    background-color: black;
+    background-color: rgb(0, 4, 17);;
     display: flex;
     justify-content: flex-end;
     
 }
-footer a{
-    color: white;
+.copyright{
+background-color:rgb(0, 4, 17); 
+font-size: xx-small;
+display: flex;
+justify-content: flex-end;
+
 }
 /* mobile media query */
 @media (max-width: 428px) {
