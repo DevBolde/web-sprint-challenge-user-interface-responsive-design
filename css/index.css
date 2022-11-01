@@ -261,9 +261,7 @@ footer nav{
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    
-}
-.signup{
+
 }
 footer button{
     /* makes text black */
@@ -275,7 +273,6 @@ font-size: medium;
 display: flex;
 justify-content: flex-end;
 padding-right: 10%;
-border: solid white 1px;
 }
 footer .copyright{
     display: flex;
