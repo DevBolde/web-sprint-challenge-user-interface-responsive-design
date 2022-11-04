@@ -95,6 +95,9 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+.hide{
+    display: none;
+}
 header h1{
     text-align: center;
     background-color: rgb(0, 4, 17, .8);
@@ -281,8 +284,13 @@ footer .copyright{
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
+    header{
+        display: flex;
 
+    }
+    .hide{
+    display: flex;
+}
     /* gallery section */
     .gallery {
         height: auto;
