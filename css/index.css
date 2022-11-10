@@ -95,22 +95,24 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
-header h1{
+header nav h1{
     text-align: center;
     background-color: rgb(0, 4, 17, .8);
+    width: 100%;
 }
 header nav{
     background-color: rgb(0, 4, 17, .8);
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.socials{
+/* .socials{
     background-color: rgb(0, 4, 17, .8);
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-}
+} */
 a:hover{
     background-color: rgb(0, 4, 17, .8);
     color: white;

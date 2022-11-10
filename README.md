@@ -26,7 +26,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 ​
 [Click here for home page mobile example](https://i.ibb.co/svmmXzn/home-mobile.png)
 ​
-[Click here for the menu page example](https://i.ibb.co/N5 xLyLCH/menu-desktop.png)
+[Click here for the menu page example](https://i.ibb.co/NxLyLCH/menu-desktop.png)
 ​
 [Click here for menu page mobile example](https://i.ibb.co/Wsc2vpz/menu-mobile.png)
 ​
@@ -87,8 +87,8 @@ Review the provided design files for the menu page.
 ​
 * [x] Copy and paste your home page header and footer into the menu page.
 * [ ] Update the header image with the menu page image.
-* [ ] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
-* [ ] Create a container for each section (e.g. drinks or entrees) with class "menu-section"
+* [x] Use the article element for the menu and a div inside of it; change the div's class to "menu-container"
+* [x] Create a container for each section (e.g. drinks or entrees) with class "menu-section"
 * [ ] Create a container for each item (e.g. soda or burger) with class "menu-item"
 * [ ] Add an H4 for every price and title of the menu, two h4 for each menu
 * [ ] Add a p element for every description, second line such as (v) will require it's own p
